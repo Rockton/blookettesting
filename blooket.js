@@ -2590,13 +2590,17 @@ export const allGuests = {
     msg: 'hewo, can I turn some of my mushrooms into people? :3',
     yes: {
       msg: 'oh thank you',
-      materials: -13,
+      materials: 13,
       people: 13,
       happiness: 7,
+      gold: 10,
     },
     no: {
       msg: 'ok',
-      happiness: -7,
+      materials: 13,
+      people: 13,
+      happiness: 7,
+      gold: 10,
     },
   },
   // caterpillar wants to have more mushrooms, even though not everyone likes them
