@@ -1676,7 +1676,10 @@ export const allGuests = {
     },
     no: {
       msg: "I'll just keep learning then.",
-      happiness: -7,
+      happiness: 10,
+      materials: 15,
+      gold: 15,
+      people: 10,
     },
   },
   // wizard needs materials to fend off the slime monster
